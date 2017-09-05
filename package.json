@@ -1,0 +1,38 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "description": "学习使用gulp工具",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-filter": "^5.0.1",
+    "gulp-html-minify": "0.0.14",
+    "gulp-htmlbuild": "^0.4.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rev": "^8.0.0",
+    "gulp-rev-all": "^0.9.7",
+    "gulp-rev-collector": "^1.2.2",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "jshint": "^2.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jml0128/learngulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jml0128/learngulp/issues"
+  },
+  "homepage": "https://github.com/jml0128/learngulp#readme"
+}

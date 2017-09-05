@@ -1,0 +1,27 @@
+body{width:10rem;background:#fff;margin:auto;}
+.cardMain .cardBox{
+	padding:0.3rem 0.2rem 0 0.2rem;
+	top:0.3rem;
+}
+.cardMain .cardBox h2{
+	color:#000;
+	border-bottom:2px solid #ccc;
+}
+.cardMain .cardBox ul li{
+	padding:0.2rem 0;
+	font-size:0.35rem;
+	color:#000;
+	overflow:hidden;
+}
+.cardMain .cardBox ul li *{
+	float:left;
+}
+
+.cardMain .cardBox ul li .title{
+	color:#555;
+	width:20%;
+}
+
+.cardMain .cardBox ul li .text{
+	width:70%;
+}

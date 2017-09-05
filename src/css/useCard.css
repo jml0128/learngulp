@@ -1,0 +1,18 @@
+.cardMain .cardBox .cardPassWord{
+	text-align:center;
+	padding-bottom:0.2rem;
+	border-bottom:1px dashed rgba(210,210,210,0.5);
+}
+
+.cardMain .cardBox .cardShop{
+	text-align:center;
+	padding:0.4rem 0 0.2rem 0;
+	color:#000;
+	border-bottom:1px dashed rgba(210,210,210,0.5);
+}
+
+.cardMain .cardBox .cardUse{
+	width:8rem;
+	border-radius:0.1rem;
+	margin:0.4rem auto 0.4rem auto;
+}
