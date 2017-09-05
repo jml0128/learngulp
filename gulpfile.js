@@ -5,7 +5,9 @@
  uglify = require('gulp-uglify'), 
  csso = require('gulp-csso'), 
  filter = require('gulp-filter'), 
- RevAll = require('gulp-rev-all'), 
+ RevAll = require('gulp-rev-all'),
+ oImage = require('gulp-image'),
+imagemin = require('gulp-imagemin'),
  del = require('del'); 
  gulp.task('default', function () {
 	 var jsFilter = filter('**/*.js',{restore:true}), 
@@ -25,6 +27,9 @@
 		 }))
 	 .pipe(htmlFilter)
 	 .pipe(htmlFilter.restore)
-	 .pipe(gulp.dest('dist'))
+	 .pipe(gulp.dest('dist'));
+	 gulp.src('src/img/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('./dist/img'));
  });
 
